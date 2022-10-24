@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BOX</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Tangerine&display=swap');
+		
+		body{
+			background-image: url();
+			background-repeat: no-repeat; 
+			background-color: black;
+			background-size: 100% auto;
+			background-attachment: fixed;
+		}
+		input{
+			background: #35414d;
+			opacity: .5;
+			color: white;
+			font-size: 30px;
+			font-family: 'Marck Script', cursive;
+			height: 50px;
+			width: 500px;
+			box-shadow: 0 0 6px black;
+			border-radius: 20px;
+			border: 0;
+		}
+		button {
+			background: #35414d;
+			opacity: .5;
+			color: black;
+			font-size: 1vw;
+			box-shadow: 0 0 6px black;
+			border-radius: 5px;
+		}
+		textarea{
+			background: #35414d;
+			opacity: .5;
+			color: white;
+			font-size: 30px;
+			font-family: 'Marck Script', cursive;
+			box-shadow: 0 0 6px black;
+			border-radius: 15px;
+			border: 0;
+		}
+		.lin {
+			color: black;
+		}
+		.time {
+			color: black;
+			font-family: 'Halogen_Gas_Lights';
+			font-size: 50px;
+			background: #35414d;
+			opacity: .5;
+			box-shadow: 0 0 6px black;
+			border-radius: 5px;
+		}
+		a {
+			text-decoration-line: none;
+			font-family: 'Monoton', cursive;
+		}
+
+		.search {
+			position: absolute;
+			top: 10%;
+			left: 35%;
+		}
+
+		.fast_links {
+			background: #35414d;
+			opacity: .5;
+			color: black;
+			font-size: 40px;
+			box-shadow: 0 0 6px black;
+			border-radius: 5px;
+		}
+
+		.fast_butt {
+			background: #35414d;
+			opacity: .5;
+			color: black;
+			font-size: 22px;
+			box-shadow: 0 0 6px black;
+			border-radius: 5px;	
+		}
+
+		.clock {
+		}
+
+		#hello_tag {
+			color: grey;
+			ont-family: 'Monoton', cursive;
+		}
+
+		.YTLinker {
+			box-shadow:;
+			border-radius:;
+		}
+
+		.pctrer {
+			box-shadow:;
+			border-radius:;
+		}
+		
+	</style>
+</head>
+<body id="bb">
+	<div align="center"><a id='time' class="time">00 00 00</a></div>
+	<div>
+		<a href="https://github.com/git-guides" id='git' class="fast_links" onmouseover="getElementById('git').style.boxShadow='0 0 8px green';" onmouseout="getElementById('git').style.boxShadow='0 0 6px black'">
+			<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+  				<path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+			</svg>
+		</a><br>
+		<a href="https://stackoverflow.com/" id='swo' class="fast_links" onmouseover="getElementById('swo').style.boxShadow='0 0 8px orange';" onmouseout="getElementById('swo').style.boxShadow='0 0 6px black'">
+			<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-stack-overflow" viewBox="0 0 16 16">
+  				<path d="M12.412 14.572V10.29h1.428V16H1v-5.71h1.428v4.282h9.984z"/>
+  				<path d="M3.857 13.145h7.137v-1.428H3.857v1.428zM10.254 0 9.108.852l4.26 5.727 1.146-.852L10.254 0zm-3.54 3.377 5.484 4.567.913-1.097L7.627 2.28l-.914 1.097zM4.922 6.55l6.47 3.013.603-1.294-6.47-3.013-.603 1.294zm-.925 3.344 6.985 1.469.294-1.398-6.985-1.468-.294 1.397z"/>
+			</svg>
+		</a><br>
+		<a href="https://www.youtube.com/" id='yt' class="fast_links" onmouseover="getElementById('yt').style.boxShadow='0 0 8px red';" onmouseout="getElementById('yt').style.boxShadow='0 0 6px black'">
+			<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+  				<path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+			</svg>
+		</a><br>
+		<a href="https://google.ru/" id='gog' class="fast_links" onmouseover="getElementById('gog').style.boxShadow='0 0 8px white';" onmouseout="getElementById('gog').style.boxShadow='0 0 6px black'">
+			<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+  				<path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
+			</svg>
+		</a><br>
+		<a href="https://www.wikipedia.org/" id='wiki' class="fast_links" onmouseover="getElementById('wiki').style.boxShadow='0 0 8px blue';" onmouseout="getElementById('wiki').style.boxShadow='0 0 6px black'">
+			<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
+  				<path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+			</svg>
+		</a><br>
+		<a href="https://www.twitch.tv/" id='twitch' class="fast_links" onmouseover="getElementById('twitch').style.boxShadow='0 0 8px purple';" onmouseout="getElementById('twitch').style.boxShadow='0 0 6px black'">
+			<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-twitch" viewBox="0 0 16 16">
+  				<path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142v6.286z"/>
+  				<path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z"/>
+			</svg>
+		</a><br>
+		<a href="https://soundcloud.com/" id='scloud' class="fast_links" onmouseover="getElementById('scloud').style.boxShadow='0 0 8px orange';" onmouseout="getElementById('scloud').style.boxShadow='0 0 6px black'">
+			<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-music-note-beamed" viewBox="0 0 16 16">
+  				<path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13c0-1.104 1.12-2 2.5-2s2.5.896 2.5 2zm9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2z"/>
+  				<path fill-rule="evenodd" d="M14 11V2h1v9h-1zM6 3v10H5V3h1z"/>
+  				<path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4V2.905z"/>
+			</svg>
+		</a><br>
+		<a href="https://translate.google.ru/" id='trans' class="fast_links" onmouseover="getElementById('trans').style.boxShadow='0 0 8px white';" onmouseout="getElementById('trans').style.boxShadow='0 0 6px black'">
+			<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-translate" viewBox="0 0 16 16">
+  				<path d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286H4.545zm1.634-.736L5.5 3.956h-.049l-.679 2.022H6.18z"/>
+  				<path d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2zm7.138 9.995c.193.301.402.583.63.846-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6.066 6.066 0 0 1-.415-.492 1.988 1.988 0 0 1-.94.31z"/>
+			</svg>
+		</a><br>
+		<a href="https://docstransfer.com/" id="docs" class="fast_links" onmouseover="getElementById('docs').style.boxShadow='0 0 8px yellow';" onmouseout="getElementById('docs').style.boxShadow='0 0 6px black'">
+			<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-file-earmark-zip" viewBox="0 0 16 16">
+  				<path d="M5 7.5a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v.938l.4 1.599a1 1 0 0 1-.416 1.074l-.93.62a1 1 0 0 1-1.11 0l-.929-.62a1 1 0 0 1-.415-1.074L5 8.438V7.5zm2 0H6v.938a1 1 0 0 1-.03.243l-.4 1.598.93.62.929-.62-.4-1.598A1 1 0 0 1 7 8.438V7.5z"/>
+  				<path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1h-2v1h-1v1h1v1h-1v1h1v1H6V5H5V4h1V3H5V2h1V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"/>
+			</svg>
+		</a><br>
+	</div>
+	
+	<div align="center" class="search">
+		<div id='yt_hell_contain'><h1 id='hello_tag'></h1></div><br>
+		<input  id="myinput" title="Search line" name="hello" class="myinput" accesskey="z"></input>
+		<a  id="hoo" title="Jump to entered link" name="hoo" class="fast_butt" accesskey="l">
+			<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+  				<path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+  				<path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+			</svg>
+		</a>
+		<a id="search" title="Find the entered query on the Internet" name="search" class="fast_butt" onclick="searcher()" accesskey="s">
+			<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+  				<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+			</svg>
+		</a>
+		<a id="YTButt" title="Open YouTube video on homepage" class="fast_butt" onclick="YTLink()" accesskey="y">
+			<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-layout-sidebar-inset" viewBox="0 0 16 16">
+  				<path d="M14 2a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h12zM2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2z"/>
+  				<path d="M3 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4z"/>
+			</svg>
+		</a>
+		<a href="" id="linker" class="lin"></a>
+	 	<Br>
+		<dir id="menu">
+			<input type="file" multiple="" id="fileNote" hidden="">
+			<a id="notesLink" title="Open notes-taking window" class="fast_butt" onclick="notes_choice()" accesskey="n">
+				<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+  					<path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+  					<path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+				</svg>
+			</a>
+			<a id="pctr" title="Open picture on homepage from the Internet" class="fast_butt" onclick="picture_op()" accesskey="p">
+				<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-images" viewBox="0 0 16 16">
+  					<path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+  					<path d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2zM14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1zM2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1h-10z"/>
+				</svg>
+			</a><br>
+			<div id="notes_area"></div>
+		</dir><Br>
+	</div><br>
+	
+	 
+	<br><br>
+	<!--<iframe class="embedIframe-2hcNY5" src="https://w.soundcloud.com/player/?url=https%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F1329098029%3Fsecret_token%3Ds-Bp2d06AHTQL&amp;show_artwork=true&amp;visual=true&amp;origin=twitter&amp;" width="290" height="300" frameborder="1" scrolling="no" allowfullscreen="" sandbox="allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>-->
+	<h1 id="fileName"></h1>
+
+	<!--<iframe src="https://discord.com/widget?id=800133425381507102&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>-->
+
+	<!--<iframe id="pctrer" class="pctrer" src="" width="" height="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+	<div id="photo_menu" style="white-space:nowrap;"></div>
+  	<script>
+		var my_div = crtEl = null;
+  		window.onload = function() {
+  		setInterval(function() {
+    	// Seconds
+    	var seconds = new Date().getSeconds();  	
+    	// Minutes
+    	var minutes = new Date().getMinutes();
+    	// Hours
+    	var hours = new Date().getHours();
+		if (seconds<10) {
+			seconds = "0" + seconds;
+		}
+		if (minutes<10) {
+			minutes = "0" + minutes;
+		}
+		if (hours<10) {
+			hours = "0" + hours;
+		}
+    	var time = hours + ":" + minutes + ":" + seconds;
+  		document.getElementById("time").innerHTML = time;
+  		}, 1000);
+		}
+
+		function form() {
+	  		var key = document.getElementById("myinput");
+	  		var val = key.value;
+	  		//var vid = document.getElementsByTagName("iframe");
+	  		//vid.src = val;
+	  		document.getElementById("linker").href = val;
+	  		document.getElementById("linker").click();
+	  		
+	  	}
+
+	  	function searcher() {
+	  		var key = document.getElementById("myinput");
+	  		var val = key.value;
+	  		document.getElementById("linker").href = "https://duckduckgo.com/?t=ffab&q=" + val + "&ia=web"
+	  		document.getElementById("linker").click()
+	  	}
+
+	  	function YTLink() {
+	  		document.getElementById("yt_hell_contain").innerHTML='<iframe id="YTLinker" class="YTLinker" width="500" height="300" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+	  		var key = document.getElementById("myinput");
+	  		var val = key.value;
+	  		document.getElementById("YTLinker").src = "https://youtube.com/embed/" + val;
+	  		document.getElementById("YTLinker").style.boxShadow = "0 0 6px black";
+	  		document.getElementById("YTLinker").style.borderRadius = "30px";
+	  	}
+
+	  	function notes_choice() {
+	  		/*var note = document.getElementById("notesLink");
+	  		var fileNote = document.getElementById("fileNote");
+	  		fileNote.click();
+	  		var fileValue = fileNote.value;
+	  		document.getElementById("fileName").innerHTML = fileValue;*/
+	  		document.getElementById("notes_area").innerHTML="<textarea></textarea>"
+	  		//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	  	}
+		
+		function picture_op() {
+			var photo_menu = document.getElementById('photo_menu');
+			let crtEl = document.createElement("div");
+			photo_menu.appendChild(crtEl);
+			//var pctrer = document.getElementById('pctrer');
+			//var pctr = document.getElementById('pctr');
+			var key = document.getElementById("myinput");
+			var val = key.value;
+			var img = new Image();
+			var IMGwidth = 0;
+			var IMGheight = 0;		
+			img.onload = function(IMGwidth, IMGheight) {   
+				var width = this.width;   
+				var height = this.height; 
+				IMGheight = height;
+				IMGwidth = width;
+				crtEl.innerHTML = '<iframe id="pctrer" class="pctrer" style="box-shadow:0 0 6px black; border-radius:30px;" src="' + val + '" width="' + IMGwidth + '" height="' + IMGheight + '" frameborder="0" allow="accelerometer; autoplay; clipboard-write; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+				//document.getElementById("pctrer").width = width;
+				//document.getElementById("pctrer").height = height;
+			} 
+			img.src = val;
+			//pctrer.src = val;
+			//body.getElementsByClassName("pctrer").style.boxShadow = "0 0 6px black";
+	  		//body.getElementsByClassName("pctrer").style.borderRadius = "30px";
+
+		}
+
+		
+
+	  	function animate(x) {
+	  		//x = "10%";
+	  		document.getElementById("git").style.width=x;
+	  	}
+
+	  	var now = new Date();
+	  	var hour = now.getHours();
+	  	//alert(hour);
+	  	if ((hour < 18) && (hour > 7)) {
+	  		document.getElementById("bb").style.backgroundColor = "#353e46";
+	  		document.getElementById("hello_tag").innerHTML= "Good afternon, 'USERNAME'"
+	  	}
+	  	if (hour >= 18) {
+	  		document.getElementById("bb").style.backgroundColor = "#353e4d";
+	  		document.getElementById("hello_tag").innerHTML= "Good evening, 'USERNAME'"
+	  	}
+	  	if (hour < 7) {
+	  		document.getElementById("bb").style.backgroundColor = "#353e4d";
+	  		document.getElementById("hello_tag").innerHTML= "Good evening, 'USERNAME'"
+	  	} 
+
+	  	//var wid = "10%";
+  		//var Git = document.getElementById("git");
+  		//Git.addEventListener("mouseover", animate(wid));
+  		var searsher = document.getElementById("hoo");
+  		searsher.addEventListener("click", form);
+  		
+  	</script>
+</body>
+</html>
